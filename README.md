@@ -1,7 +1,7 @@
 # databases
 week 3
 
-exercises 3
+exercises 2
 
 #1
 <img width="416" alt="image" src="https://github.com/user-attachments/assets/aeb67c71-9e1c-4a22-b0fa-4a716543657f">
@@ -23,4 +23,38 @@ exercises 3
 
 
 week 4
-week 5
+
+exercise 4
+
+#1
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/a0e346ee-b32d-4596-857c-a6b7f114acf5">
+
+#2
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/f023a91c-7194-4feb-98ff-14865c0f75d8">
+
+#3
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/29f13f93-4f96-4cb8-a87a-26e912694d20">
+
+#4
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/847c2fa7-175c-45f0-8c42-0ee21aa608b3">
+
+#5
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/7183a95c-c484-47f6-952b-cec735a41efc">
+
+#6
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/61ac187c-5c90-4ad5-ad55-1d1abb702028">
+
+#7
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/0dfff475-a9f4-42bf-90dd-b56bf92390a4">
+
+#8
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/9a36ec0d-1209-47a7-a95b-f59bada3bbd6">
+
+#9
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/5daa7c18-b354-4406-8216-886bc8d10109">
+
+#10
+<img width="416" alt="image" src="https://github.com/user-attachments/assets/47f5d9eb-2237-426b-99c0-e63eac240809">
+
+exercises 5
+#
