@@ -60,14 +60,51 @@ weeek 4
 
 exercises 4
 #1
+select country.name as "country name", airport.name as "airport name" 
+from country inner join airport on airport.iso_country = country.iso_country
+where country.name = "Finland" and scheduled_service = "yes";
+
 #2
+select screen_name, airport.name from game inner join airport on location = ident;
+![image](https://github.com/user-attachments/assets/42ee9c50-a3e6-4875-80d9-50ff1e748812)
+
 #3
+select screen_name, country.name
+from game inner join airport on location = ident inner join country on airport.iso_country = country.iso_country;
+![image](https://github.com/user-attachments/assets/cff522ce-5f8c-44e5-b0ca-2f9f0e941d4f)
+
 #4
+select airport.name, screen_name from airport left join game on ident = location where name like "%Hels%";
+![image](https://github.com/user-attachments/assets/5e5d7bbd-fcb7-40d6-9a0b-91d6ca6d9f33)
+
 #5
+select name, screen_name from goal left join goal_reached on goal.id = goal_id  left join game on game.id = game_id;
+
+![image](https://github.com/user-attachments/assets/fb45083b-5e43-4cdc-98ff-a2d70158339e)
+
+week 4
 
 exercises 5
+
 #1
+select name from country where iso_country in(select iso_country from airport where name like "Satsuma%");
+![image](https://github.com/user-attachments/assets/06e94733-748f-4557-b9cb-c56c73366d6d)
+
 #2
+select name from airport where iso_country in(select iso_country from country where name = "Monaco");
+![image](https://github.com/user-attachments/assets/618063c5-94d3-4117-ae4f-25b9a5f39485)
+
 #3
+select screen_name from game where id in (select game_id
+from goal_reached where goal_id in(select id from goal where name = "CLOUDS"));
+![image](https://github.com/user-attachments/assets/17649e1b-27a4-4825-95fe-bf171e17b39c)
+
 #4
+select country.name from country where iso_country not in (select airport.iso_country from airport);
+![image](https://github.com/user-attachments/assets/60f748e6-d73c-4ff0-a8cd-dcd4196f23b8)
+
 #5
+select name from goal where id not in(select goal.id from goal, goal_reached, game
+where game.id = game_id and goal.id = goal_id and screen_name = "Heini");
+![image](https://github.com/user-attachments/assets/23ed5086-f4ee-4cce-89a2-5fb11e138fbe)
+
