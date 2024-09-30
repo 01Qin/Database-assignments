@@ -22,9 +22,9 @@ exercises 2
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/1025e189-4fd4-4631-b2a8-cb4ae93fbac8">
 
 
-week 4
+week 3
 
-exercise 4
+exercise 3
 
 #1
 <img width="416" alt="image" src="https://github.com/user-attachments/assets/a0e346ee-b32d-4596-857c-a6b7f114acf5">
@@ -56,5 +56,18 @@ exercise 4
 #10
 <img width="416" alt="image" src="https://github.com/user-attachments/assets/47f5d9eb-2237-426b-99c0-e63eac240809">
 
+weeek 4
+
+exercises 4
+#1
+#2
+#3
+#4
+#5
+
 exercises 5
-#
+#1
+#2
+#3
+#4
+#5
