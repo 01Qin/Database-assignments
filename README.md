@@ -65,26 +65,32 @@ select country.name as "country name", airport.name as "airport name"
 from country inner join airport on airport.iso_country = country.iso_country
 where country.name = "Finland" and scheduled_service = "yes";
 
+<img width="1020" alt="Screenshot 2024-10-01 at 11 11 32" src="https://github.com/user-attachments/assets/185bfbbd-ca45-4f77-8849-e9105ba658d9">
+
 #2
 select screen_name, airport.name from game inner join airport on location = ident;
 
-![image](https://github.com/user-attachments/assets/42ee9c50-a3e6-4875-80d9-50ff1e748812)
+<img width="1194" alt="Screenshot 2024-10-01 at 11 13 34" src="https://github.com/user-attachments/assets/b3cf784f-ada7-43be-840c-311f42c64ecf">
+
 
 #3
 select screen_name, country.name
 from game inner join airport on location = ident inner join country on airport.iso_country = country.iso_country;
 
-![image](https://github.com/user-attachments/assets/cff522ce-5f8c-44e5-b0ca-2f9f0e941d4f)
+<img width="1333" alt="Screenshot 2024-10-01 at 11 15 29" src="https://github.com/user-attachments/assets/79c4bb2b-efc0-4795-a5ec-2e938e9a8af0">
+
 
 #4
 select airport.name, screen_name from airport left join game on ident = location where name like "%Hels%";
+<img width="1317" alt="Screenshot 2024-10-01 at 11 16 52" src="https://github.com/user-attachments/assets/5fdf46c8-65b0-4390-894a-01e7c7d8a391">
 
-![image](https://github.com/user-attachments/assets/5e5d7bbd-fcb7-40d6-9a0b-91d6ca6d9f33)
+
 
 #5
 select name, screen_name from goal left join goal_reached on goal.id = goal_id  left join game on game.id = game_id;
 
-![image](https://github.com/user-attachments/assets/fb45083b-5e43-4cdc-98ff-a2d70158339e)
+<img width="1321" alt="Screenshot 2024-10-01 at 11 17 38" src="https://github.com/user-attachments/assets/c6bf313a-2452-4de5-a3b8-9e4b81cc9f0e">
+
 
 week 4
 
@@ -93,28 +99,27 @@ exercises 5
 #1
 
 select name from country where iso_country in(select iso_country from airport where name like "Satsuma%");
-
-![image](https://github.com/user-attachments/assets/06e94733-748f-4557-b9cb-c56c73366d6d)
+<img width="1324" alt="Screenshot 2024-10-01 at 11 19 10" src="https://github.com/user-attachments/assets/1c352502-d636-46fe-b64c-f09d0bfa5625">
 
 #2
 select name from airport where iso_country in(select iso_country from country where name = "Monaco");
+<img width="1327" alt="Screenshot 2024-10-01 at 11 19 52" src="https://github.com/user-attachments/assets/d23dfe0f-e7ba-403d-834a-9c88dd4ae344">
 
-![image](https://github.com/user-attachments/assets/618063c5-94d3-4117-ae4f-25b9a5f39485)
+
 
 #3
 select screen_name from game where id in (select game_id
 from goal_reached where goal_id in(select id from goal where name = "CLOUDS"));
-
-![image](https://github.com/user-attachments/assets/17649e1b-27a4-4825-95fe-bf171e17b39c)
+<img width="988" alt="Screenshot 2024-10-01 at 11 20 22" src="https://github.com/user-attachments/assets/2ec6078f-b47e-40f3-9257-5c6e664083bd">
 
 #4
 select country.name from country where iso_country not in (select airport.iso_country from airport);
-
-![image](https://github.com/user-attachments/assets/60f748e6-d73c-4ff0-a8cd-dcd4196f23b8)
+<img width="1322" alt="Screenshot 2024-10-01 at 11 21 05" src="https://github.com/user-attachments/assets/992708f0-5dbd-42c0-8320-acc30287b487">
 
 #5
 select name from goal where id not in(select goal.id from goal, goal_reached, game
 where game.id = game_id and goal.id = goal_id and screen_name = "Heini");
 
-![image](https://github.com/user-attachments/assets/23ed5086-f4ee-4cce-89a2-5fb11e138fbe)
+<img width="1183" alt="Screenshot 2024-10-01 at 11 21 41" src="https://github.com/user-attachments/assets/56a7ecdc-83bf-43a6-8759-145ea5ac8f85">
+
 
