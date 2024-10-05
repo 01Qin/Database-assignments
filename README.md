@@ -122,4 +122,38 @@ where game.id = game_id and goal.id = goal_id and screen_name = "Heini");
 
 <img width="1183" alt="Screenshot 2024-10-01 at 11 21 41" src="https://github.com/user-attachments/assets/56a7ecdc-83bf-43a6-8759-145ea5ac8f85">
 
+week 5
+
+exercises 6
+
+#1
+
+<img width="405" alt="Screenshot 2024-10-05 at 19 29 12" src="https://github.com/user-attachments/assets/a209201d-2092-483a-be83-ba14bfaed620">
+
+#2
+
+<img width="687" alt="Screenshot 2024-10-05 at 19 33 15" src="https://github.com/user-attachments/assets/2eb0852c-b618-4fa8-b908-2a2e10991613">
+
+#3
+
+<img width="686" alt="Screenshot 2024-10-05 at 19 35 59" src="https://github.com/user-attachments/assets/376ddbe8-e7f2-481e-8fcc-7377f63896ba">
+
+#4
+
+<img width="689" alt="Screenshot 2024-10-05 at 19 38 57" src="https://github.com/user-attachments/assets/71927928-e0d6-445e-8369-c0e307af051f">
+
+#5
+
+<img width="695" alt="Screenshot 2024-10-05 at 20 01 45" src="https://github.com/user-attachments/assets/cb70e345-ad49-4113-8efc-fb418d440bf6">
+
+#6
+
+<img width="698" alt="Screenshot 2024-10-05 at 20 04 22" src="https://github.com/user-attachments/assets/dedf8051-d995-4546-b23f-17c74ab68945">
+
+#7
+
+#8
+#9
+#10
+
 
