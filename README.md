@@ -152,8 +152,33 @@ exercises 6
 
 #7
 
+<img width="697" alt="Screenshot 2024-10-05 at 20 09 36" src="https://github.com/user-attachments/assets/2ddec707-94d6-421c-a7ab-eff1d4ce1b97">
+
+#8
+
+<img width="694" alt="Screenshot 2024-10-05 at 20 13 12" src="https://github.com/user-attachments/assets/44606420-9062-4015-adb2-ca66eb190f25">
+
+
+#9
+
+<img width="686" alt="Screenshot 2024-10-05 at 20 17 55" src="https://github.com/user-attachments/assets/74c937ab-c68d-465d-956f-642e4fa20641">
+
+#10
+
+<img width="697" alt="Screenshot 2024-10-05 at 20 21 09" src="https://github.com/user-attachments/assets/e54fdaf3-62b9-4d88-bdd7-b76c81fe4082">
+
+week 5
+
+exercises 7
+
+#1
+#2
+#3
+#4
+#5
+#6
+#7
 #8
 #9
-#10
 
 
