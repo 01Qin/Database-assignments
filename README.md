@@ -172,9 +172,26 @@ week 5
 exercises 7
 
 #1
+	
+update game
+set  location = (select ident from airport where name = "Nottingham Airport"), co2_consumed = co2_consumed+500
+where screen_name = "Vesa";
+
+select * from game;
+
+<img width="686" alt="Screenshot 2024-10-07 at 21 29 42" src="https://github.com/user-attachments/assets/db4a166e-047e-4cb7-947a-cf0915df8dcc">
+
 #2
+
+<img width="620" alt="Screenshot 2024-10-07 at 21 35 02" src="https://github.com/user-attachments/assets/05ed4250-d3bf-4ca0-ba3b-e389058927ae">
+
 #3
+
+<img width="503" alt="Screenshot 2024-10-07 at 21 35 41" src="https://github.com/user-attachments/assets/2e513720-7c24-499f-af34-7f1a051bc0de">
+
 #4
+<img width="363" alt="Screenshot 2024-10-07 at 21 36 38" src="https://github.com/user-attachments/assets/64dac520-0a15-4d71-a700-1034e60d88a3">
+
 #5
 #6
 #7
