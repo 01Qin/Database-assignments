@@ -192,10 +192,4 @@ select * from game;
 #4
 <img width="363" alt="Screenshot 2024-10-07 at 21 36 38" src="https://github.com/user-attachments/assets/64dac520-0a15-4d71-a700-1034e60d88a3">
 
-#5
-#6
-#7
-#8
-#9
-
 
