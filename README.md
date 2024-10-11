@@ -192,4 +192,9 @@ select * from game;
 #4
 <img width="363" alt="Screenshot 2024-10-07 at 21 36 38" src="https://github.com/user-attachments/assets/64dac520-0a15-4d71-a700-1034e60d88a3">
 
+week 1 of software 2
+
+Exercises 08: Database Design
+
+<img width="1167" alt="Screenshot 2024-10-11 at 20 54 54" src="https://github.com/user-attachments/assets/d06a04ba-1e7d-4c33-8a29-162e87b190cb">
 
